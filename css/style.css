@@ -1,0 +1,176 @@
+
+ body{
+  padding: 0;
+  margin: 0;
+  
+ }   
+
+.pozadina {
+  max-width: 100%;
+  width: 100%;
+}
+.profile {
+  
+  
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.dinoslika {
+  
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.profile h2 {
+  
+padding-top: 15px;
+padding-bottom: 10px;
+}
+.profile p {
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  
+}
+
+.container-exp {
+  display: flex;
+  padding-top:0;
+  background-color: #427AA1;
+  font-weight: normal;
+  flex-direction: row;
+}
+.nazivdino {
+  text-align: center;
+  margin-top: 40px
+}
+.web-designer {
+  background-color: rgba(255, 255, 255, 0.801);
+padding: 10px;
+margin-left: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+.Jata {
+  background-color: rgba(255, 255, 255, 0.801);
+padding: 10px;
+margin-left: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.Module {
+  background-color: rgba(255, 255, 255, 0.801);
+padding: 10px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.Education {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  
+  width: 100%;
+  padding-bottom: 25px;
+  background-color: #427AA1;
+  
+  
+}
+.text-center h2 {
+  font-size: 31px;
+}
+
+
+
+.naslov-neki {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#427AA1 ;
+  text-align: center;
+  color: black;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+.sadrzaj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.801);
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+.dinodiv {display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.801);
+  padding-top: 10px;
+  
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.kuciste {display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #427AA1;
+  color: black;
+  
+}
+.nazivdino {
+  background-color: rgba(255, 255, 255, 0.801);
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 100%;;
+  margin-top: 20px;
+  
+}
+@media only screen and (max-width: 600px) {
+  .container-exp {
+    flex-direction: column; /* Prebacivanje na kolone za mobilne uređaje */
+  }
+
+  .web-designer,
+  .Jata,
+  .Module {
+    flex: 1; /* Ovo omogućava elementima da se proporcionalno rastežu */
+    margin: 5px; /* Manje margine za bolje prilagođavanje */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sadrzaj {
+    margin-left: 5px;
+    margin-right: 5px; /* Prebacivanje na kolone za mobilne uređaje */
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .dinodiv {
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px; /* Prebacivanje na kolone za mobilne uređaje */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nazivdino {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+     /* Prebacivanje na kolone za mobilne uređaje */
+  }
+}
+
+
